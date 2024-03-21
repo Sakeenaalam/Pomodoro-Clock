@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url(calmimage.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #timer {
+    font-size: 36px;
+    color: black;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-color: black;
+    border: 1px solid black;
+    color: black;
+  }
+
+  #time-left
+  {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    align-items: center
+   
+
+  }
+
+
+  
